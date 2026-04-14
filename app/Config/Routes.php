@@ -15,3 +15,4 @@ $routes->get('/coba/index','Coba::index');
 $routes->get('/coba/(:any)/(:num)', 'Coba::about/$1/$2');
 
 $routes->get('/users', 'Admin\users::index');
+$routes->get('/users', 'Admin\users::index');
