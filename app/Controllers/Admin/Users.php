@@ -11,4 +11,8 @@ class Users extends BaseController
     {
         echo "Ini adalah controller users dari folder admin dengan method index";
     }
+
+    public function badmin(){
+        echo "Ini adalah halaman badmin";
+    }
 }
