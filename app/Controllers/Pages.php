@@ -23,4 +23,13 @@ class Pages extends BaseController
         echo view('pages/about');
         echo view('layout/footer');
     }
+
+        public function contact(){
+        $data = [
+            'title' => 'LangsDev | Contact'
+        ];
+        echo view('layout/header', $data);
+        echo view('pages/contact');
+        echo view('layout/footer');
+    }
 }
