@@ -1,7 +1,7 @@
     <div class="container">
         <div class="row">
             <div class="column">
-                About Me
+                <br>
                 <div class="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden dark:bg-gray-800">
                 <div class="h-48 bg-gradient-to-br from-lime-500 to-lime-600"></div>
                 <div class="p-6">
